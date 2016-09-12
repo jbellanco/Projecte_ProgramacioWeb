@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "ca">>
+<head>
+	<title> Set i Mig </title>
+    <meta name = "description" content = "Joc del set i mig">
+	<meta name = "keywords" content = "joc, cartes, set, mig">
+	<meta charset="utf-8">
+	<link rel = "stylesheet" href = "practica.css" type = "text/css" media = "screen" >
+	<link href="img/logo.png" rel="shortcut icon">
+    <script src="set_i_mig.js"></script>
+</head>
+<body>
+    <div id = "body0">
+  		<div id = "portada"> 
+			<a href="jocs.html"><img src="img/logof.png"></a>
+		</div> 
+		<div id = "menu">  
+			<ul>
+				<li> <a href = "Pong/pong.html"> PONG </a> </li>
+				<li> <a href = "set_i_mig.html"> SET I MIG </a> </li>
+				<li> <a href = ""> ESCACS </a> </li>
+				<li> <a href = ""> DOMINO </a> </li> 
+			</ul>
+		</div>
+		<div id = "login">
+			<ul>
+				<li> <a href = "index.html"> Tancar Sessió </a> </li> 
+			</ul>
+		</div>
+	<div id="container">
+		<div id="titol_set_i_mig">
+			<h3 class ="h3_set">SET I MIG</h3>
+			<ul>
+				<li>El set i mig és un joc de cartes molt senzill que es juga amb la baralla espanyola.</li>
+				<li>Es tracta d'aconseguir acostar-se al 7 i 1/2, sense sobrepassar-lo.</li>
+				<li>Els valors de les cartes són: de l'1 al 7, el seu valor corresponent.</li>
+				<li>La sota, el cavall i el rei valen 1/2.</li>
+				<li>La banca demanarà carta fins a una puntuació de 5 punts, després es plantarà!</li>
+			</ul>
+			<h4 class="h4_set">Podràs guanyar a la banca?</h4>
+			<h4 class="h4_set">Per començar a jugar demana carta.</h4>
+		</div>
+
+		<div id="set_i_mig">
+			<div id="jugador"></div>
+			<p id="puntuacio_jugador"></p>
+			
+			<div id="botons_de_joc">
+				<input type="button" id="mostraCarta" name="demanarCarta" value="Vull carta" onclick="mostraCarta()">
+				<input type="button" id="jugaBanca" name="plantar-se" value="Em planto" onclick="jugaBanca()">
+			</div>
+			<div id="banca"></div>
+			<p id="puntuacio_banca"></p>
+
+			<div id="resultats">
+				<p id = "puntuacions"></p>
+				<p class="tornar">Vols tornar a jugar?</p>
+				<input type="button" value="Si" onclick="window.location.reload(1);">
+				<input type="button" value= "No" onclick = "exit();">
+			</div>
+		</div>
+	</div>
+	<div id = "credits"> 
+		<p id = "footer1"> Treball de la pràctica final de l'assignatura de Programació web de la UOC. Universitat Oberta de Catalunya</p>
+		<p id = "footer2"> © Tots els drets reservats. Grup 1 Programació web: Núria Bahamontes, Javi Bellanco, Adolfo Aldunate i Xavi Argemí </p>
+	</div>
+		<div id = "xsocials"> 
+				<ul>
+					<li><a href= "https://www.facebook.com/" title="facebook" class="facebook"></a></li>
+					<li><a href= "https://www.pinterest.com/" title="pinterest"  class="pinterest"></a></li>
+					<li><a href= "https://www.rss.com/" title="rss" class="rss"></a></li>
+					<li><a href= "https://www.twitter.com/share?&text=GameJavascript" title="twitter" class="twitter"></a></li>
+				</ul>
+		 </div>
+	</div>
+</body>
+</html>

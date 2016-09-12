@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang = "ca">
+<head>
+	<title> Formulari </title>
+	<meta charset = "UTF-8">
+	<meta name = "description" content = "Formulari de Registre">
+	<link rel = "stylesheet" href = "practica.css" type = "text/css" media = "screen" >
+	<link href="img/logo.png" rel="shortcut icon">
+	<script type="text/javascript" src="formulari.js"></script>
+</head>
+<body onload = "document.getElementById('nom').focus()">
+	<div id = "body">
+		<div id = "portadaf"> 
+			<a href="index.html"><img src="img/logof.png"></a>
+		</div> 
+		<div id = "menuf">  
+			<p> Formulari de Registre </p>
+		</div>
+		<div id="containerr"> 
+			<h4> Empleneu els següents camps per tramitar el vostre registre. Tots els camps són obligatoris. Tot el qui no sigui major d'edat no pot registrar-se.</h4>
+			<form id = "registre" autocomplete="off" onsubmit="return comprovacions();" action = "login.html" method="post">
+					Nom:<br> <input type="text" id="nom" required><br><br>
+
+					Cognoms:<br> <input type="text" id="cognoms" required>
+					<p id = "nomcognoms" class = "compr"></p>
+		 
+					DNI:<br> <input type="text" id="dni" maxlength="9" required>
+					<p id = "dnic" class = "compr"></p>
+		 
+					Data de Naixement:<br> <input type="date" id="ddn" required><br><br>
+
+					Adreça:<br> <input type="text" id="carrer" required><br><br>
+
+					Població:<br> <input type="text" id="poblacio" required><br> <br>
+
+					Codi Postal:<br> <input type="text" id="cp" maxlength="5" required>
+					<p id = "cpc" class = "compr"></p>
+
+					País:<br> <input type="text" id="pais" required><br> <br>
+
+					Telèfon:<br> <input type="text" id="tel" maxlength="9" required>
+					<p id = "telc" class = "compr"></p>
+		 
+					Correu electrònic:<br> <input type="text" id="email" required>
+					<p id = "emailc" class = "compr"></p>
+
+					Nom-usuari:<br> <input type="text" id="username" required>
+					<p id = "usernamec" class = "compr"></p>
+
+					Contrasenya:<br> <input type="password" id="pwd" required><br><br>
+
+					Confirma Contrasenya:<br> <input type="password" id="pwd2" required>
+					<p id = "pwdc" class = "compr"></p>	 
+
+					<input type="submit" class = "botof" value="Envia" />
+			</form>
+		</div>
+		<div id = "creditsr"> 
+			<p id = "footer1"> Treball de la pràctica final de l'assignatura de Programació web de la UOC. Universitat Oberta de Catalunya</p>
+			<p id = "footer2"> © Tots els drets reservats. Grup 1 Programació web: Núria Bahamontes, Javi Bellanco, Adolfo Aldunate i Xavi Argemí </p>
+		</div> 
+	</div>
+</body>
+</html>

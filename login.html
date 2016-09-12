@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang = "ca">
+<head>
+	<title> Login </title>
+	<meta charset = "UTF-8">
+	<meta name = "description" content = "Formulari d'accés">
+	<link rel = "stylesheet" href = "practica.css" type = "text/css" media = "screen" >
+	<link href="img/logo.png" rel="shortcut icon">
+	<script type="text/javascript" src="login.js"></script>
+</head>
+<body onload = "document.getElementById('user').focus()">
+	<div id = "body">
+		<div id = "portadaf"> <a href="index.html"><img src="img/logof.png"></a></div> 
+		<div id = "menuf">  
+			<p> Formulari d'accés</p>
+		</div> 
+		<div id="containerf">
+			<form id = "loginf" autocomplete="off" onsubmit = "return login();" action = "jocs.html" method="post">
+					Usuari:<br> <input type="text" id="user" required> <br><br>
+					Contrasenya: <br> <input type="password" id="password" required><br><br>
+					<input type="submit" class = "botof" value="Accedeix" />
+			</form>
+		</div>
+		<div id = "credits"> 
+			<p id = "footer1"> Treball de la pràctica final de l'assignatura de Programació web de la UOC. Universitat Oberta de Catalunya</p>
+			<p id = "footer2"> © Tots els drets reservats. Grup 1 Programació web: Núria Bahamontes, Javi Bellanco, Adolfo Aldunate i Xavi Argemí </p>
+		</div> 
+	</div>
+</body>
+</html>

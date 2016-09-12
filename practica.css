@@ -1,0 +1,563 @@
+* {
+	font-family: helvetica;
+ 	margin: auto;
+ 	color: #009b77;
+}
+
+#body {
+	width: 400px;
+}
+
+#body p {
+	margin: 12px;
+}
+
+#body h4{
+	text-align: center;
+}
+
+#body p .compr {
+	margin: 6px;
+}
+
+.compr{
+	font-size: 9pt;
+	color: red;
+}
+
+#body0 {
+	width: 974px;
+}
+
+#portada {
+	height: 5em; 
+	width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#portadaf {
+	height: 4em; 
+	width: 100%;
+    text-align: center;	    
+    margin-top: 5px;
+}
+
+#titol {
+	font-size: 21pt;
+	color: #009b77;
+	padding-left: 12pt;
+	padding-top: 1.2em;
+	text-align: center;
+}
+
+#titolf {
+	font-size: 21pt;
+	color: #009b77;
+	padding-left: 12pt;
+	padding-top: 1.2em;
+	text-align: center;
+}
+
+#menu {
+	width: 70%; 
+	float: left;
+	background-color: #004a38;
+	padding-top: 6pt;
+	padding-bottom: 6pt;
+	height: 13pt;
+	padding-left: 0px;
+	margin-left: 0px; 
+}
+
+#menuf {
+	width: 100%;
+	background-color: #004a38;
+	height: 2em;
+	color: white;
+	text-align: center;
+
+}
+#menuf p {
+	padding-top: 8px;
+	color:white;
+}
+#menu li {
+	display: inline;
+}
+#menu ul {    
+	text-align: left;
+	padding-left: 5px; 
+}
+#menu li a{ 
+	text-decoration: none;
+	color: white; 
+	display: inline;
+	padding-left: 8pt; 
+	padding-right: 7pt;  
+	padding-top: 6pt;
+	padding-bottom: 5pt; 
+	background-color: #004a38;
+	border-top-color: white;
+	border-top-width: 6px; 
+	font-size: 11pt; 
+
+} 
+.botof {
+	background-color: #004a38;
+	border: none;
+	color: white; 
+	text-align: center;
+	text-decoration: none; 
+	font-size: 11pt; 
+	width: 88px;
+	cursor: pointer;
+	display: block;
+	float: right;
+}
+.botof:hover {
+	background-color: #009b77;
+}
+
+#menu li a:hover {
+	background-color: #009b77;
+}
+
+#login {
+	float: right;  
+	width: 30%;  
+	background-color: #004a38;
+	padding-top: 6pt;
+	padding-bottom: 6pt;  
+	height: 13pt;   
+}
+
+#login ul {    
+	text-align: right;
+	padding-right: 5px;
+}
+
+#login li { 
+	display: inline;   
+}
+
+#login li a{ 
+	text-decoration: none;
+	color: white; 
+	display: inline;
+	padding-left: 8pt; 
+	padding-right: 6pt;  
+	padding-top: 6pt;
+	padding-bottom: 5pt; 
+	background-color: #004a38;
+	border-top-color: white;
+	border-top-width: 6px; 
+	font-size: 11pt; 
+}
+
+#login li a:hover {
+	background-color: #009b77;;
+}
+
+#titolportada {
+	padding-top: 31pt;
+}
+
+#containerf{
+	background: #C3D4CB;
+}
+
+#containerr{
+	background: #C3D4CB;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+}
+
+
+#loginf {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 115px;
+	display: inline-block;
+}
+
+#registre {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#registre .botof{
+float: right;
+}
+
+#caixaprincipal { 
+	float: none;
+	width: 100%;
+	background-color: #C3D4CB;
+	padding-top: 10pt;
+	padding-bottom: 18pt;
+}
+
+#credits {
+	width: 100%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #004a38;
+	padding-top: 8pt;
+	text-align: center;
+}
+
+#creditsr {
+	width: 100%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #004a38;
+	padding-top: 8pt;
+	padding-bottom: 10pt;
+}
+
+#caixaprincipal img { 
+	width: 100%; 
+	
+}
+#caixaprincipal p { 
+	margin-left: 23px;
+	margin-bottom: 23px;
+
+}
+
+#caixaprincipal h2 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-left: 23px;
+}
+
+.link2 a { 
+	padding-top: 12px;
+	padding-bottom: 45px;
+	 margin-left: 15px;
+ 	padding-left: 155px;  
+	background-image: url("img/jugar3b.png");
+	 background-repeat: no-repeat;
+	 background-size: 155px;  
+  
+}
+
+.link2 a:hover {
+	background-image: url("img/jugar3.png");
+
+}
+.caixajoc {
+	margin-left: 30px;
+	background-color: white; 
+	margin-right: 25px;
+
+	margin-bottom: 1em;
+	height: 14.6em;
+	 
+}
+
+#icones {
+	padding-top: 3em;
+}
+
+#fons0 {
+background-image: url("img/pong.png");
+	background-repeat: no-repeat;
+	background-size: 20em 12.7em;	
+}
+#fons1 { 
+background-image: url("img/cards.jpg");
+	background-repeat: no-repeat;
+	background-size: 19.3em;
+}
+#fons2 { 
+background-image: url("img/chess.jpg");
+	background-repeat: no-repeat;
+	background-size: 21em 12.7em;
+}
+#fons3 { 
+background-image: url("img/dominos.jpg");
+	background-repeat: no-repeat;
+	background-size: 19.3em;
+	}
+
+/*capses alternes*/
+.capsa12 {
+	width: 35%;
+	float: right; 
+	height: 13em;
+	
+	height: 13em;
+
+}
+.capsa12 p{
+	 padding-top: 9em;
+	 padding-left: 12em;
+
+		 
+}
+.capsa12 a {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	 
+ padding-left: 74px; 
+	 margin-right: 0px;
+	background-image: url("img/jugar.png");
+	 background-repeat: no-repeat;
+	 background-size: 155px;   
+  
+
+}
+.capsa12 a:hover { 
+	background-position: -78px 0em;
+}
+.capsa21 {
+	width: 65%;
+	float: left; 
+	height: 13em;
+} 
+
+.alterna {
+	background-color: #004a38;
+	color: white;
+	margin-right: 0px;
+	padding: 6px ;
+	font-size: 12pt;
+	margin-left: 596px;
+	text-align: right;
+}
+
+/**/
+.capsa1 {
+	width: 35%;
+	float: left; 
+	height: 13em;
+	height: 13em;
+
+}
+.capsa1 p {
+	 padding-top: 9em;		 
+}
+
+.capsa1 a {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	 
+ padding-left: 74px; 
+	 margin-right: 0px;
+	background-image: url("img/jugar.png");
+	 background-repeat: no-repeat;
+	 background-size: 155px;  
+  
+
+}
+.capsa1 a:hover { 
+	background-position: -78px 0em;
+}
+.capsa2 {
+	width: 65%;
+	float: right; 
+	height: 13em;
+	
+} 
+.capsa2 p,.capsa21 p{
+	padding-right:25px;
+}
+
+.alterna2 {
+	background-color: #004a38;
+	color: white;
+	margin-right: 610px;
+	padding: 6px ;
+	font-size: 12pt;
+
+}
+#footer1 {
+	font-size: 9pt;
+}
+#footer2 {
+	font-size: 9pt;
+}
+#footer1f {  
+	font-size: 9pt;
+}
+#footer2f {  
+	font-size: 9pt;
+}
+#icones img{
+	width: 35em; 
+	display: block;
+	clear: center;
+}
+
+
+/*XARXES SOCIALS */
+#xsocials{ 
+	text-align: center;
+} 
+
+
+#xsocials ul li{
+	display:inline-block;
+} 
+
+#xsocials ul li a{
+	margin: 10px 5px;
+	text-decoration:none; 
+	height:40.5px; 
+	width:40.5px; 
+	float:left;
+} 
+
+a.facebook {
+	background-image: url(img/xarxes-socials-sprites.jpg);
+}
+
+a.facebook:hover {
+	background-position: 0 -41px;
+}
+
+a.pinterest {
+	background-image: url(img/xarxes-socials-sprites.jpg);
+	background-position: -41px 0 ; 
+}
+
+a.pinterest:hover {
+	background-position: -41px -41px ; 
+}
+
+a.rss {
+	background-image: url(img/xarxes-socials-sprites.jpg);
+	background-position: -82px 0;
+}
+
+a.rss:hover {
+	background-position: -82px -41px; 
+}
+
+a.twitter {
+	background-image: url(img/xarxes-socials-sprites.jpg);
+	background-position: -123px 0;
+}
+
+a.twitter:hover {
+	background-position: -123px -41px;
+}
+
+/* css set_i_mig*/
+#titol_set_i_mig{
+    text-align:center;
+}
+
+#titol_set_i_mig ul li{
+	color: black;
+	text-align: left;
+	margin-left: 50px;
+}
+
+#set_i_mig input, .botof{
+	background: #004a38;
+	background-image: -webkit-linear-gradient(top, #004a38, #004a38);
+	background-image: -moz-linear-gradient(top, #004a38, #004a38);
+	background-image: -ms-linear-gradient(top, #004a38, #004a38);
+	background-image: -o-linear-gradient(top, #004a38, #004a38);
+	background-image: linear-gradient(to bottom, #004a38, #004a38);
+	-webkit-border-radius: 10;
+	-moz-border-radius: 10;
+	border-radius: 10px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 8px 15px 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#set_i_mig input:hover, .botof:hover{
+	background: #0c3d4c;
+	background-image: -webkit-linear-gradient(top, #0c3d4c, #0c3d4c);
+	background-image: -moz-linear-gradient(top, #0c3d4c, #0c3d4c);
+	background-image: -ms-linear-gradient(top, #0c3d4c, #0c3d4c);
+	background-image: -o-linear-gradient(top, #0c3d4c, #0c3d4c);
+	background-image: linear-gradient(to bottom, #0c3d4c, #0c3d4c);
+	text-decoration: none;
+}
+
+#resultats{
+	display: none;
+}
+
+#set_i_mig{
+	margin: auto;
+    text-align:center;
+	width:700px;
+	height: 470px;
+}
+
+#puntuacio_jugador,#puntuacio_banca,#puntuacions,#banca,.tornar {
+	color:#FF6633;
+}
+
+#container{
+	background-color: #C3D4CB;
+	padding-top: 10pt;
+}
+
+.h3_set{
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.h4_set{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#jugador, #banca{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#puntuacio_banca{
+	margin-bottom: 20px;
+}
+#container #set_i_mig img{
+	display: inline;
+}
+
+/* css pong */
+.h3_pong{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+canvas{
+	border: 10px solid #004a38;
+	background: white;
+	padding: 0;
+    margin: auto;
+    display: block;
+}
+
+
+#juego{
+    text-align:center;
+}
+
+
+#container img{
+	display:none;
+}
+
+#juego ul li{
+	color: black;
+	text-align: left;
+	margin-left: 50px;
+}
+
+

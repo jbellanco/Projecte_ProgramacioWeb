@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang = "ca">
+<head>
+	<title> Pong </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name = "keywords" content = "joc, pong, tennis, cops">
+	<meta charset="utf-8">
+	<link rel = "stylesheet" href = "../practica.css" type = "text/css" media = "screen" >
+    <link href="../img/logo.png" rel="shortcut icon">
+    <script src="pong.js"></script>
+</head>
+<body onload="loadGame()">
+	<div id = "body0" >
+		<div id = "portada"> 
+			<a href="../jocs.html"><img src="../img/logof.png"></a>
+		</div> 
+		<div id = "menu">  
+			<ul>
+				<li> <a href = "pong.html"> PONG </a> </li>
+				<li> <a href = "../set_i_mig.html"> SET I MIG </a> </li>
+				<li> <a href = ""> ESCACS </a> </li>
+				<li> <a href = ""> DOMINO </a> </li> 
+			</ul>
+		</div>
+		<div id = "login">
+			<ul>
+				<li> <a href = "../index.html"> Tancar Sessió </a> </li> 
+			</ul>
+		</div>
+		<div id="container">
+		    <div id="juego">
+				<h3 class ="h3_pong">PONG</h3>
+				<ul>
+				<li>El pong és el classic joc "arcade" on l'objectiu és mantenir la pilota en moviment sense que caigui del terreny de joc.</li>
+				<li>Disposes d'una barra horitzontal que t'ajudarà a colpejar la pilota quan estigui a punt de caure.</li>
+				<li>Quan superis els 20 cops la velocitat de la pilota augmenta, i així la dificultat del joc.</li>
+				</ul>
+				<h3 class ="h3_pong">QUANTS COPS ETS CAPAÇ DE REALITZAR?</h3>
+		        <h3 class="h3_pong"> Per a moure't a esquerra o dreta utilitza les fletxes <br/> Per a pausar o reanudar el joc utilitza l'espai</h3>
+		        <div id="pong" style="display:none" ></div>
+		    </div>
+		    <img id="heart" src="img/heart.png" /><br>
+		    <img id="heartB" src="img/heartB.png" /><br>
+		</div>
+		<div id = "credits"> 
+			<p id = "footer1"> Treball de la pràctica final de l'assignatura de Programació web de la UOC. Universitat Oberta de Catalunya</p>
+			<p id = "footer2"> © Tots els drets reservats. Grup 1 Programació web: Núria Bahamontes, Javi Bellanco, Adolfo Aldunate i Xavi Argemí </p> 
+		</div>
+		<div id = "xsocials"> 
+				<ul>
+					<li><a href= "https://www.facebook.com/" title="facebook" class="facebook"></a></li>
+					<li><a href= "https://www.pinterest.com/" title="pinterest"  class="pinterest"></a></li>
+					<li><a href= "https://www.rss.com/" title="rss" class="rss"></a></li>
+					<li><a href= "https://www.twitter.com/share?&text=GameJavascript" title="twitter" class="twitter"></a></li>
+				</ul>
+		 </div>
+	</div>
+</body>
+
+</html>
